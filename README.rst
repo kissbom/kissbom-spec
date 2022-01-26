@@ -32,8 +32,9 @@ any other format.
 The extensions for KISS BOM files are ".kissbom.json", ".kissbom.yml",
 ".kissbom.csv", etc.
 
-The provided attributes are sufficient to:
+These attributes are sufficient to:
 
-- lookup package details, including dependencies from package repositories,
+- document the packages provenance and license,
+- lookup packages details, including dependencies from package repositories,
 - download packages, and
-- query bug trackers and vulnerability databases for issues.
+- query bug trackers and vulnerability databases for package issues.
