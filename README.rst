@@ -8,7 +8,7 @@ Context and Problem
 Reporting software provenance and track licensing, bugs and
 vulnerabiilities is useful.
 
-What could be the simplest way we could do this?
+What could be the simplest way to do this?
 
 Solution
 ---------
@@ -26,7 +26,7 @@ The attributes for each items of this list are:
 
 purl and SPDX license expressions have their own spec.
 
-Content is UTF-8-encoded and can be seralized as JSON, YAML, CSV or
+Content is UTF-8-encoded and can be serialized as JSON, YAML, CSV or
 any other format. 
 
 The extensions for KISS BOM files are ".kissbom.json", ".kissbom.yml",
