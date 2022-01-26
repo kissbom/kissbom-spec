@@ -1,5 +1,5 @@
 
-Q: What is a package has no repository or is proprietary?
+Q: What if a package has no repository or is proprietary?
 
 - A: Use a "generic" purl and a download URL or homepage URL qualifier.
 
