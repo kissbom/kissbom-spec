@@ -5,36 +5,36 @@ kissbom: The keep it simple SBoM
 Context and Problem
 --------------------
 
-Reporting software provenance and track licensing, bugs and
+Reporting software provenance to track licensing, bugs and
 vulnerabiilities is useful.
 
-What could be the simplest way to do this?
+What could be the simplest way to craft a Software Bill
+of Material (SBoM)?
 
 Solution
 ---------
 
-The kissbom is a document that lists all the software packages
+A kissbom is a document that lists all the software packages
 included in the software it documents, both own code and
 third-party.
 
-The attributes for each items of this list are: 
+The attributes for each item in this list are: 
 
 - purl: a Package URL string.
 - license: an optional SPDX license expression string.
 - copyright: an optional copyright holder name(s) string.
 - notes: an optional notes string.
 
+These attributes are sufficient to:
+- document packages provenance and license,
+- query package details from repositories, including dependencies,
+- download packages, and
+- query bug trackers and vulnerability databases for package issues.
+
 purl and SPDX license expressions have their own spec.
+
+The extensions for kissbom files are ".kissbom.json", ".kissbom.yml",
+".kissbom.csv", etc.
 
 Content is UTF-8-encoded and can be serialized as JSON, YAML, CSV or
 any other format. 
-
-The extensions for KISS BOM files are ".kissbom.json", ".kissbom.yml",
-".kissbom.csv", etc.
-
-These attributes are sufficient to:
-
-- document the packages provenance and license,
-- lookup packages details, including dependencies from package repositories,
-- download packages, and
-- query bug trackers and vulnerability databases for package issues.
