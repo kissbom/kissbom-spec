@@ -13,5 +13,5 @@ Q: What if I want to provide checksums?
 
 Q: Where do I document my own code?
 
-- A: As entries in the packages list. The first entries
-would typically describe your own software.
+- A: As entries in the packages list. The first item(s)
+  would typically describe your own software.
