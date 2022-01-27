@@ -15,3 +15,9 @@ Q: Where do I document my own code?
 
 - A: As entries in the packages list. The first item(s)
   would typically describe your own software.
+
+Q: What about vulnerabilities?
+
+- A: If we want a kissbom to also contains vulnerability
+  information for packages, we can add a field that would list
+  vulnerability ids for this SBoM entry. 
