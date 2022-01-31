@@ -26,6 +26,7 @@ The attributes for each item in this list are:
 - notes: an optional notes string.
 
 These attributes are sufficient to:
+
 - document packages provenance and license,
 - query package details from repositories, including dependencies,
 - download packages, and
