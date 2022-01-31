@@ -37,7 +37,7 @@ purl and SPDX license expressions have their own spec.
 The extensions for kissbom files are ".kissbom.json", ".kissbom.yml",
 ".kissbom.csv", etc.
 
-The filename should be used to document the subject of the SbOM
+The filename should be used to document the subject of the SBoM
 including optionally the product or component name, the SBoM author
 name, and an ISO 8601 timestamp of when this SBoM was last modified.
 Filenames should be lowercase and contain no space and should
