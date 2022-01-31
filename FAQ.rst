@@ -21,3 +21,8 @@ Q: What about vulnerabilities?
 - A: If we want a kissbom to also contains vulnerability
   information for packages, we can add a field that would list
   vulnerability ids for this SBoM entry. 
+  
+Q: Does the kissbom-spec meet NTIA standards for Baseline Attributes?
+
+- A: Based on the discussion in https://github.com/kissbom/kissbom-spec/issues/1
+  it likely does
